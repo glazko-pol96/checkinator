@@ -64,7 +64,7 @@ app
   //     value: crypto.createHash("sha1").update(r.body.inp).digest("hex"),
   //   });
   // })
-  .all("/login", (r) => r.res.send("andreeva.anna2909"))
+  .all("/login", (r) => r.res.send("polina69"))
   .listen(process.env.PORT || 3000, () => {
     console.log("Server is working");
   });

@@ -45,7 +45,7 @@ app
     const WPresponse = await axios.post(
       `https://wordpress.kodaktor.ru/wp-json/wp/v2/posts/`,
 
-      { content, title: "andreeva.anna2909", status: "publish" },
+      { content, title: "polina69", status: "publish" },
       {
         headers: { Authorization: `Bearer ${token}` },
       }

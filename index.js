@@ -29,7 +29,7 @@ app
   .get("/makeimage?", (r) => {
     const width = parseInt(r.query.width);
     const height = parseInt(r.query.height);
-    sharp("./img/ALX_ICON.png")
+    sharp("./img/icon.png")
       .resize(width, height)
       .toFile("./img/output.png", (err, info) => {
         r.res.download("./img/output.png");
